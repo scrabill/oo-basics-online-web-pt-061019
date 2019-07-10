@@ -1,6 +1,6 @@
 # Make your shoe class here!
 class Shoe
-  attr_accessor :brand, :color, :size, :material, :condition # Properties of the Shoe class. Each can be assigned with x.proptery = propety_value
+  attr_accessor :brand, :color, :size, :material, :condition # Properties of the Shoe class. Each can be assigned with x.proptery = property_value
 
   def initialize(brand) # A new show must have a brand associated with it
     @brand = brand
